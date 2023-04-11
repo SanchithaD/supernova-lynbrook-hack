@@ -46,6 +46,10 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
+  
+  "engines": {
+  "node": "16.x"
+},
   "browserslist": {
     "production": [
       ">0.2%",
