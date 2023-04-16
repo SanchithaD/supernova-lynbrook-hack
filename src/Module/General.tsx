@@ -72,7 +72,7 @@ const MIDDLE_SECTION = {
   TITLE: 'Supernova Lynbrook Hackathon',
   LONG_DESCRIPTION: (
     <>
-      Santa clara county's largest all girls hackathon! 24 hours where students create technological solutions to problems in their communities.{' '}
+      Santa clara county's largest all girls hackathon! 24 hours where students create technological solutions to problems in their communities{' '}
       <a
         className="lime-link"
         href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
@@ -350,7 +350,7 @@ const MENTORS_SECTION = {
       LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
-    },
+    }
   ],
 
   
