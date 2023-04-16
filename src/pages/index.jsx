@@ -80,12 +80,12 @@ const NavBar = () => {
             </li>
             <li>
               <a href={`#about`}>
-                <span className="links">Conceito </span>{' '}
+                <span className="links">About </span>{' '}
               </a>
             </li>
             <li>
               <a href={`#mentors`}>
-                <span className="links">Mentores </span>{' '}
+                <span className="links">Team </span>{' '}
               </a>
             </li>
             <li>
@@ -95,13 +95,13 @@ const NavBar = () => {
             </li>
             <li>
               <a href={`#prizes`}>
-                <span className="links">Premiação </span>{' '}
+                <span className="links">Prizes </span>{' '}
               </a>
             </li>
             {/* The event ended so let this section commented */}
             <li>
               <a href={`#subscription`}>
-                <span className="links">Inscrição </span>{' '}
+                <span className="links">Signup </span>{' '}
               </a>
             </li>
           </ul>
