@@ -35,16 +35,13 @@ const TOP_SECTION = {
   BANNER: hackathonBanner,
   TITLE: '1º Festival de Inovação Social',
   Typed_effect: [
-    '24 horas de evento',
-    '24 horas de aprendizado',
-    '24 horas de diversão',
-    '24 horas de programação',
-    '24 horas de tecnologia',
-    '24 horas de inovação'
+    '12 hours to code',
+    '12 hours to program',
+    '12 hours to innovate',
   ],
   LONG_DESCRIPTION: (
     <>
-      24 horas de programação e inovação para projetar soluções para{' '}
+      12 hours of programming and innovation to design solutions for{' '}
       <a
         className="lime-link"
         href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
@@ -72,10 +69,10 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'O Hackathon',
+  TITLE: 'Supernova Lynbrook Hackathon',
   LONG_DESCRIPTION: (
     <>
-      Nosso hackathon será colaborativo, onde todos juntos buscam solucionar os{' '}
+      Santa clara county's largest all girls hackathon! 24 hours where students create technological solutions to problems in their communities.{' '}
       <a
         className="lime-link"
         href="https://hackathon-inovacao-social.notion.site/85b8d765f1de4293946b0a0a54f73300?v=332836713aad4d1fa131034ba89fa342"
@@ -88,8 +85,7 @@ const MIDDLE_SECTION = {
     </>
   ),
   COLLAPSE_TITLE_PARAGRAPHS: [
-    'O Hackathon contará com equipes formadas por estudantes, profissionais e empreendedores, visando desenvolver projetos de tecnologia focadas em demanda reais nas áreas de saúde e educação, que possam deixar um legado para a cidade. ',
-    '“As equipes que mais se destacarem serão convidadas para compor a comunidade do Hub de Inovação do Moinho por seis meses, incluindo o acesso ao coworking, a eventos e a muito networking. O objetivo é que os projetos sejam validados no mundo real e, ao final deste período, poderão ser apresentados para possíveis investidores. '
+    'This hackathon is open to any high school or middle school student who identifies as female or non-binary. We welcome students of all levels, which is why we hold workshops on technical, business, and design topics to help you create the best possible project. We also have a lot of fun activities planned throughout the event along with great speakers and panel dicussions!'
   ],
   COLLAPSE_DESCRIPTION_PARAGRAPHS: [
     'Nos dias 3 e 4 de novembro acontecerá o **festival de inovação social de Juiz de Fora,** com foco nas áreas de **saúde** e **educação**. Neste evento serão apresentadas demandas e oportunidades da Zona Norte e cidade, bem como discutidas possíveis soluções, que servirão de insights para o Hackathon. ',
@@ -304,7 +300,7 @@ const sponsors = [
 ];
 
 const MENTORS_SECTION = {
-  TITLE: 'Mentores',
+  TITLE: 'Team',
   DESCRIPTION:
     'Você não estará sozinho! Contará com o suporte e apoio de mentores com longa experiência nas áreas de saúde, educação, design e tecnologia',
   MENTOR_ACTION: {
@@ -318,195 +314,98 @@ const MENTORS_SECTION = {
     TEXT: 'Quero ser um voluntário',
     LINK: 'https://forms.gle/8yGjTd88aSv4dp5C6'
   },
-  MENTORS: [
+  Team: [
     {
-      NAME: 'Anderson Mattozinhos',
-      SRC: '/Assets/People/anderson.jpeg',
-      DESCRIPTION: 'Sócio Gerente',
-      COMPANY: 'Ultrimagem Juiz de Fora',
-      LINKEDIN: 'https://www.linkedin.com/in/mattozinhos/',
+      NAME: 'Sanchitha Dinesh',
+      SRC: '/Assets/People/sanchitha.jpeg',
+      DESCRIPTION: 'Founder, Lead. she/her',
+      COMPANY: 'Junior, Lynbrook High School',
+      LINKEDIN: 'https://www.linkedin.com/in/sanchitha-dinesh/',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Gustavo Oliveira',
-      SRC: '/Assets/People/gustavo.jpeg',
-      DESCRIPTION: 'Co-Founder',
-      COMPANY: 'Smart Retail',
-      LINKEDIN: 'https://www.linkedin.com/in/gugaoliveira/',
+      NAME: 'Mihika Rajadnya',
+      SRC: '/Assets/People/miihika.jpeg',
+      DESCRIPTION: 'Marketing, she/her',
+      COMPANY: 'Junior, Lynbrook High School',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Leandro Campos',
-      SRC: '/Assets/People/leandro_campos.jpeg',
-      DESCRIPTION: 'CEO',
-      COMPANY: 'Nvoip',
-      LINKEDIN: 'https://www.linkedin.com/in/leandro-campos/',
+      NAME: 'Saanvi Gireesh',
+      SRC: '/Assets/People/saanvi.jpeg',
+      DESCRIPTION: 'Operations, she/her',
+      COMPANY: 'Junior, Lynbrook High School',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     },
     {
-      NAME: 'Daniela Fabri',
+      NAME: 'Srushti Chaudari',
       SRC: '/Assets/People/daniela.jpeg',
-      DESCRIPTION: 'Analista',
-      COMPANY: 'Sebrae-MG',
-      LINKEDIN:
-        'https://www.linkedin.com/in/daniela-fabri-ferreira-mba-a7603989/',
+      DESCRIPTION: 'Outreach, seh/her',
+      COMPANY: 'Junior, Lynbrook High School',
+      LINKEDIN: '',
       GITHUB: '',
       INSTAGRAM: ''
     },
-    {
-      NAME: 'Humberto Sales',
-      SRC: '/Assets/People/humberto.jpeg',
-      DESCRIPTION: 'Head de Inovação',
-      COMPANY: 'Quokka',
-      LINKEDIN: 'https://www.linkedin.com/in/humbertosalesdealmeida/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Chay Azevedo',
-      SRC: '/Assets/People/chay.jpeg',
-      DESCRIPTION: 'Agente Local de Inovação',
-      COMPANY: 'Sebrae',
-      LINKEDIN: 'https://www.linkedin.com/in/chayazevedo/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Kyro Caram',
-      SRC: '/Assets/People/kyro.jpeg',
-      DESCRIPTION: 'Fundador',
-      COMPANY: 'Collision',
-      LINKEDIN: 'https://www.linkedin.com/in/kyrocaram/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Lucas Mattos',
-      SRC: '/Assets/People/lucas.jpeg',
-      DESCRIPTION: 'Senior Product Manager',
-      COMPANY: 'Loft',
-      LINKEDIN: 'https://www.linkedin.com/in/luccmattos/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Tiago Gouvêa',
-      SRC: '/Assets/People/tiago.jpeg',
-      DESCRIPTION: 'CEO',
-      COMPANY: 'App Masters',
-      LINKEDIN: 'https://www.linkedin.com/in/tiagogouvea/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Arthur Avelar',
-      SRC: '/Assets/People/arthur.jpeg',
-      DESCRIPTION: 'Expansão e Novos Negócios',
-      COMPANY: 'Rhizom Technology',
-      LINKEDIN: 'https://www.linkedin.com/in/arthur-avelar/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    }
   ],
 
-  OTHER_MENTORS: {
-    TITLE: 'Mentores Desenvolvedores',
-    DESCRIPTION:
-      'Quando se trata de código, conte com alguns dos melhores devs da cidade',
-    MENTORS: [
-      {
-        NAME: 'Leandro Simões',
-        SRC: '/Assets/People/leandro.jpeg',
-        DESCRIPTION: 'Professor and Software Developer',
-        COMPANY: 'Driven Education',
-        LINKEDIN: 'https://www.linkedin.com/in/lesimoess/',
-        GITHUB: '',
-        INSTAGRAM: ''
-      },
-      {
-        NAME: 'Lesley Andreza',
-        SRC: '/Assets/People/lesley.jpeg',
-        DESCRIPTION: 'Desenvolvedor Javascript',
-        COMPANY: 'ProDoctor Software S/A',
-        LINKEDIN: 'https://www.linkedin.com/in/lesley-andreza-a05b89bb/',
-        GITHUB: '',
-        INSTAGRAM: ''
-      },
-      {
-        NAME: 'Isabela Santos',
-        SRC: '/Assets/People/isabela.jpeg',
-        DESCRIPTION: 'Desenvolvedora front-end',
-        COMPANY: 'Globo',
-        LINKEDIN: 'https://www.linkedin.com/in/isabela-santos-2b4058150/',
-        GITHUB: '',
-        INSTAGRAM: ''
-      },
-      {
-        NAME: 'Patrick Barbosa',
-        SRC: '/Assets/People/patrick.jpeg',
-        DESCRIPTION: 'Tech Lead',
-        COMPANY: 'Flash',
-        LINKEDIN: 'https://www.linkedin.com/in/patrick-barbosa-16b92616a/',
-        GITHUB: '',
-        INSTAGRAM: ''
-      }
-    ]
-  },
-  PARTNERS: [
-    {
-      NAME: 'Carlos Alexandre',
-      SRC: '/Assets/People/carlos_alexandre.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/carlosalexandre94/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Douglas Novato',
-      SRC: '/Assets/People/douglas.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/douglasabnovato/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Vinicius Carlos',
-      SRC: '/Assets/People/vinicius.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/vinicius-carlos/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Giordano Bruno',
-      SRC: '/Assets/People/giordano.jpeg',
-      LINKEDIN:
-        'https://www.linkedin.com/in/giordano-bruno-da-rosa-vieira-88699614/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Ramon Xavier',
-      SRC: '/Assets/People/ramon.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/ramonxavier/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Eduardo Alexandre',
-      SRC: '/Assets/People/eduardo.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/eduardotecnologo/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    },
-    {
-      NAME: 'Luiz Filipe',
-      SRC: '/Assets/People/luiz.jpeg',
-      LINKEDIN: 'https://www.linkedin.com/in/luiz-filipe-4aa07b163/',
-      GITHUB: '',
-      INSTAGRAM: ''
-    }
-  ]
+  
+ // JUDGES: [
+    // {
+    //   NAME: 'Carlos Alexandre',
+    //   SRC: '/Assets/People/carlos_alexandre.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/carlosalexandre94/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Douglas Novato',
+    //   SRC: '/Assets/People/douglas.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/douglasabnovato/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Vinicius Carlos',
+    //   SRC: '/Assets/People/vinicius.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/vinicius-carlos/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Giordano Bruno',
+    //   SRC: '/Assets/People/giordano.jpeg',
+    //   LINKEDIN:
+    //     'https://www.linkedin.com/in/giordano-bruno-da-rosa-vieira-88699614/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Ramon Xavier',
+    //   SRC: '/Assets/People/ramon.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/ramonxavier/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Eduardo Alexandre',
+    //   SRC: '/Assets/People/eduardo.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/eduardotecnologo/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // },
+    // {
+    //   NAME: 'Luiz Filipe',
+    //   SRC: '/Assets/People/luiz.jpeg',
+    //   LINKEDIN: 'https://www.linkedin.com/in/luiz-filipe-4aa07b163/',
+    //   GITHUB: '',
+    //   INSTAGRAM: ''
+    // }
+  //]
 };
 
 const FORM_SECTION = {
